@@ -1,0 +1,188 @@
+@media only screen and (max-width: 540px) {
+  .main-contents-inner {
+    margin: 0;
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  .main-inner-contes-sub {
+    width: 100%;
+  }
+
+  .row-below-upper h1 {
+    width: 100%;
+  }
+
+  .video-bg video {
+    object-fit: cover;
+  }
+
+  .video-bg {
+    height: 455px !important;
+  }
+
+  .row-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .get-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .featured-new-tab {
+    margin-top: 4px;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.459);
+  }
+
+  .down-glyph::before {
+    position: relative;
+    left: -2px;
+  }
+
+  .header-right-tab-btn {
+    padding-bottom: 6px;
+    margin-top: -3px;
+  }
+
+  .featured-inner-content {
+    padding: 0 16px;
+  }
+
+  .featured-cards {
+    margin-top: 30px;
+  }
+
+  .card-image-container img {
+    border-radius: 8px;
+  }
+
+  .featured-cards-inner {
+    padding: 0 6px;
+  }
+
+  .solutions-section {
+    padding: 0 16px;
+  }
+
+  .featured-solutions-row {
+    width: 696px;
+    overflow-x: scroll;
+  }
+
+  .card-content-container {
+    padding: 16px;
+  }
+
+  .arrow-absolute-1 {
+    right: 0px;
+  }
+
+  .solutions-row-bottom-content {
+    padding: 0;
+  }
+
+  .products-services {
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .product-left-image-container-content {
+    height: 195px !important;
+    aspect-ratio: auto;
+  }
+
+  .open-models {
+    padding: 16px;
+  }
+
+  .model-head h3 {
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+  }
+
+  .product-service-cards {
+    gap: 10px;
+  }
+
+  .product-right-cards-layout {
+    left: 0;
+  }
+
+  .gartner-inner {
+    padding: 0 16px;
+  }
+
+  .gartner-left {
+    padding: 16px;
+    width: 100%;
+    padding-bottom: 45px;
+  }
+
+  .gartner-left-head {
+    width: 100%;
+  }
+
+  .gartner-card {
+    border-radius: 16px;
+  }
+
+  .just-image-content {
+    margin: 0;
+  }
+
+  .just-image {
+    padding: 30px;
+  }
+
+  .global-end {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .global-end button {
+    width: 100%;
+  }
+
+  .global-contents {
+    padding: 30px 15px 0;
+  }
+
+  .customer-container {
+    padding: 0 16px;
+  }
+
+  .customer-bottom-bottom button {
+    width: 100%;
+  }
+
+  .brand-icons-container {
+    padding: 0 16px;
+  }
+
+  .finale {
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .finale-bottom {
+    margin: 0;
+  }
+
+  .left-credits {
+    margin-bottom: 10px;
+  }
+
+  .finale-bottom-container {
+    padding: 0;
+  }
+
+  .product-card-1 {
+    height: 100% !important;
+  }
+}

@@ -1,0 +1,953 @@
+@media only screen and (max-width: 859px) {
+  header {
+    display: none;
+  }
+
+  .header-2 {
+    width: 100%;
+    display: flex;
+  }
+
+  .mobile-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-left button {
+    margin: 1px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0 8px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .mobile-left button ::before {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    vertical-align: baseline;
+    font-size: 20px;
+    color: black;
+  }
+
+  .header-search {
+    padding: 8px 8px 8px 0;
+    margin-left: -12px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    width: 34px;
+  }
+
+  .header-search::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 16px;
+    margin-left: -16px;
+    /* line-height: 18px; */
+  }
+
+  .mobile-right {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1px; */
+    padding: 9px 4px 12px;
+  }
+
+  .mobile-right img {
+    height: 23px;
+    margin-left: -102px;
+    width: 108px;
+  }
+
+  .header-tab {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .header-bottom {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    height: 34px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .header-bottom button {
+    background-color: transparent;
+    border: none;
+    margin: 0 1px;
+    padding: 0 15px;
+    text-align: left;
+  }
+
+  .header-bottom span {
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-wrap: nowrap;
+  }
+
+  .header-bottom button::after {
+    font-family: "Segoe MDL2 Assets";
+    content: "";
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 7px;
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+  }
+
+  section {
+    margin-top: -0.1px;
+  }
+
+  .header-2 {
+    margin-bottom: 3.4px;
+  }
+
+  .main-contents {
+    padding-top: 31px;
+  }
+  .row-upper {
+    margin-bottom: 11px;
+  }
+
+  .main-contents-inner {
+    padding-left: 51px;
+  }
+
+  .row-below-upper h1 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+  }
+
+  .video-bg {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    height: 367px !important;
+  }
+
+  .video-bg video {
+    object-fit: contain;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    /* height: 400px !important; */
+    object-position: center;
+  }
+  .row-med {
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .row-med p {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    line-height: 28px;
+    text-align: left;
+    color: rgb(23, 37, 61);
+  }
+
+  .row-bottom {
+    margin-top: 24px;
+  }
+
+  .get-btn {
+    padding: 12px 12px 14px;
+  }
+
+  .try-azure-for-free-btn {
+    padding: 12px;
+    padding-bottom: 14px;
+  }
+
+  .featured-new-tab {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: sticky !important;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+      rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
+    margin-top: -29px;
+  }
+
+  .featured-tab-left {
+    margin: 4px;
+    display: flex;
+    width: 100%;
+    border-bottom: 4px solid rgb(0, 120, 212);
+  }
+
+  .featured-tab-left-inner {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .featured-tab-left-inner span {
+    font-family: "Segoe UI";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 16px;
+    color: rgb(0, 66, 117);
+  }
+
+  .down-glyph::before {
+    color: #0078d4;
+    font-family: "Segoe MDL2 Assets";
+    content: "";
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .header-right-tab-btn {
+    border: 2px solid rgb(137, 196, 2);
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(137, 196, 2);
+    border-radius: 8px;
+    align-items: center;
+  }
+
+  .row-maker {
+    display: flex;
+    position: relative;
+  }
+
+  .arrow-absolute-1 {
+    position: absolute;
+    top: 14px;
+    border: 1.6px solid rgb(0, 66, 117) !important;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    right: -30px;
+    z-index: 1112;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent !important;
+    border-radius: 200px;
+    background-image: linear-gradient(
+      270deg,
+      rgb(244, 250, 253) 25%,
+      rgba(242, 242, 242, 0) 100%
+    );
+  }
+
+  .arrow-absolute-1::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(0, 66, 117);
+  }
+
+  .header-right-tab-btn span {
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    text-align: center;
+    text-wrap: nowrap;
+  }
+
+  .nav-bar-main {
+    display: none;
+  }
+
+  .main {
+    height: 100%;
+  }
+
+  .featured-inner {
+    padding: 56px 0;
+  }
+
+  .featured-inner-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+  }
+
+  .featured-cards-layout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .featured-card-1 {
+    max-width: 100%;
+  }
+
+  .featured-card-1-content,
+  .card-content-container,
+  .card-container-top,
+  .card-container-body {
+    width: 100%;
+  }
+
+  .solutions-row-bottom h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+  }
+
+  .featured-solutions-row button {
+    padding: 8px 16px;
+  }
+
+  .solutions-section {
+    padding: 0 64px;
+    margin: 0;
+  }
+
+  .image-and-content {
+    display: none;
+  }
+
+  .mobile-image-and-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 4px;
+    gap: 32px;
+  }
+
+  .mobile-image-content-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .mobile-image-content-inner ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .mobile-list-upper {
+    display: flex;
+    width: 100%;
+  }
+
+  .mobile-list-upper button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 24px;
+    border: none;
+    background-color: transparent;
+    gap: 8px;
+  }
+
+  .mobile-list-upper h3 {
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+  }
+
+  .mobile-list-upper button::after {
+    font-family: "Segoe MDL2 Assets";
+    content: "";
+    transform: rotate(-180deg);
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+  }
+
+  .mobile-list-lower {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .mobile-list-lower-top {
+    display: flex;
+    width: 100%;
+  }
+
+  .mobile-list-lower-top span {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    color: rgb(0, 41, 72);
+  }
+
+  .mobile-list-lower-bottom a {
+    width: 100%;
+    margin-bottom: 24px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: rgb(0, 66, 117);
+  }
+
+  .mobile-image-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.781);
+    max-width: 726.4px;
+    width: 100%;
+  }
+
+  .mobile-image-container img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 16px;
+    max-width: 100%;
+  }
+
+  .mobile-list-upper-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    height: 100%;
+    align-items: center;
+    /* border-top: 1px solid rgba(194, 194, 194, 0.781); */
+    border-bottom: 1px solid rgba(194, 194, 194, 0.781);
+  }
+
+  .mobile-list-upper-1 button {
+    display: flex;
+    width: 100%;
+    /* margin-top: 20px; */
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 24px;
+    border: none;
+    background-color: transparent;
+    gap: 8px;
+  }
+
+  .mobile-list-upper-1 h3 {
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+  }
+
+  .mobile-list-upper-1 button::after {
+    font-family: "Segoe MDL2 Assets";
+    content: "";
+    transform: rotate(-180deg);
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+  }
+
+  .featured-solutions-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .featured-solutions-row {
+    max-width: 692px;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+  }
+
+  .arrow-btn-2 {
+    position: absolute;
+    right: 0;
+    border: 1.6px solid rgb(0, 66, 117) !important;
+    height: 40px;
+    width: 40px;
+    right: -9px;
+    z-index: 1112;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent !important;
+    border-radius: 200px;
+    background-image: linear-gradient(
+      270deg,
+      rgb(244, 250, 253) 25%,
+      rgba(242, 242, 242, 0) 100%
+    );
+  }
+
+  .arrow-btn-2::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(0, 66, 117);
+  }
+
+  .product-services-below-content {
+    position: relative;
+  }
+
+  .product-left-image-container-content {
+    height: 311px !important;
+  }
+
+  .product-left-card {
+    height: 100% !important;
+  }
+
+  .product-card-1 {
+    max-width: 100% !important;
+    height: 206px !important;
+  }
+
+  .product-card-1-bottom {
+    margin-top: 15px;
+  }
+
+  .card-1-content {
+    gap: 12px;
+  }
+
+  .section-3 {
+    padding-bottom: 56px;
+  }
+
+  .gartner {
+    padding: 48px 0;
+  }
+
+  .finale-card {
+    min-height: fit-content;
+    height: 100% !important;
+  }
+
+  .gartner-card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 796px;
+    width: 100%;
+    height: 100% !important;
+  }
+  .gartner-right {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 8px;
+    justify-content: center;
+  }
+
+  .gartner-right img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-position: center; */
+  }
+
+  .gartner-left-head h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+  }
+
+  .gartner-left-sub {
+    width: 100%;
+  }
+
+  .gartner-inner {
+    margin: 0;
+    padding: 0 64px;
+  }
+
+  .gartner-contents-sub {
+    padding: 0 4px;
+  }
+
+  .gartner-left {
+    display: flex;
+    flex-basis: 50%;
+    padding: 29px 24px 54px 15.5px;
+    justify-content: space-between;
+  }
+
+  .work-content {
+    padding: 0;
+    padding-top: 48px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .work-content h2 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+  }
+
+  .product-card1-content {
+    padding: 16px;
+  }
+
+  .product-card-1-bottom {
+    margin: 0 !important;
+    padding-top: 10px;
+  }
+
+  .below-transform {
+    position: relative;
+  }
+
+  .title-nav {
+    margin-left: 26px;
+    overflow-x: scroll;
+    width: 1432px;
+    position: relative;
+  }
+
+  .title-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-card-1-content {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .nav-item,
+  .nav-item-med,
+  .nav-item-end {
+    padding: 12px 16px;
+    text-wrap: nowrap;
+    width: 100%;
+    height: 52px;
+    width: 100%;
+  }
+
+  .nav-item span,
+  .nav-item-med span,
+  .nav-item-end span {
+    width: 220px !important;
+  }
+
+  .arrow-absolute {
+    position: absolute;
+    top: 14px;
+    border: 1.6px solid rgb(0, 66, 117) !important;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    bottom: 0;
+    right: 75px;
+    z-index: 1112;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent !important;
+    border-radius: 200px;
+    background-image: linear-gradient(
+      270deg,
+      rgb(244, 250, 253) 25%,
+      rgba(242, 242, 242, 0) 100%
+    );
+  }
+
+  .arrow-absolute::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(0, 66, 117);
+  }
+
+  .infrastructure-top {
+    padding-top: 24px;
+  }
+
+  .infrastructure-top-contents {
+    margin: 0;
+  }
+
+  .optimize-head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 28px;
+  }
+
+  .just-image {
+    margin: 0;
+    padding: 0 64px;
+  }
+
+  .just-image-content {
+    padding: 0;
+    margin: 30px;
+  }
+
+  .global-head span {
+    font-size: 32px;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+  }
+
+  .below-products ul {
+    flex-wrap: wrap;
+  }
+
+  .global-med span {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 28px;
+  }
+
+  .global {
+    background-size: fill;
+    background-position: center;
+    height: 291px;
+    overflow-y: hidden;
+    height: 100%;
+  }
+
+  .global-contents {
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .global-container {
+    padding: 20px 0 96px;
+  }
+
+  .global-end button {
+    padding: 12px 13px 14px;
+  }
+
+  .customer {
+    padding: 48px 0;
+  }
+
+  .customer-container,
+  .brand-icons-container {
+    margin: 0;
+    padding: 0 64px;
+  }
+
+  .customer-head h2 {
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+  }
+
+  .customer-body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .customer-right {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-left: 8px;
+  }
+
+  .customer-right img {
+    border-radius: 16px;
+    width: 100%;
+    max-width: 100% !important;
+    object-fit: cover;
+  }
+
+  .customer-body {
+    height: 100% !important;
+  }
+
+  .about-lego span {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 28px;
+  }
+
+  .customer-left {
+    padding: 16px;
+  }
+
+  .customer-left-top {
+    width: 98%;
+  }
+
+  .brand-icons-container ol {
+    display: none;
+  }
+
+  .left-right-arrow {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .brand-left-arrow {
+    border: 2px solid rgba(23, 37, 61, 0.247);
+    padding: 13px 14px 13px 12px;
+    height: 49.2px;
+    background-color: transparent;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-left-arrow::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 66, 117, 0.37);
+  }
+
+  .brand-right-arrow {
+    border: 2px solid rgb(0, 66, 117);
+    padding: 13px 14px 13px 12px;
+    height: 49.2px;
+    background-color: transparent;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-right-arrow::after {
+    content: "";
+    font-family: "Segoe MDL2 Assets";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(0, 66, 117);
+  }
+
+  .finale-container {
+    padding: 48px 0;
+  }
+
+  .finale-top h2 {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+  }
+
+  .finale-bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .finale-card {
+    max-width: 100% !important;
+    /* height: 162.2px !important; */
+  }
+
+  .finale-card-content-bottom {
+    margin-top: 18px;
+  }
+
+  .finale-card-content {
+    padding: 16px;
+  }
+
+  .finale-container {
+    background-image: url("img/finale-bg.avif");
+    background-size: cover;
+    background-position: right;
+  }
+
+  .top {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 28px;
+  }
+
+  .finale {
+    width: 100% !important;
+  }
+
+  .footer-inner {
+    padding: 0 12px;
+  }
+
+  .left-credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .end-credits {
+    padding-right: 0;
+    padding-left: 24px;
+    padding-bottom: 22px;
+  }
+
+  .footer-inner-top {
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  .right-credits,
+  .right-credits ul {
+    margin: 0;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .privacy {
+    left: -5px;
+  }
+}

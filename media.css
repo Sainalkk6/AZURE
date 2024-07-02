@@ -1,0 +1,321 @@
+@media  only screen and (max-width:1394px) {
+
+    .search-content{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width:1186px) and (max-width:1335px) {
+    .partners{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width:1186px) and (max-width:1229px) {
+    .pricing{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width:1186px) and (max-width:1155px) {
+    .solutions{
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width:1185px) {
+    .other{
+        display: none;
+    }
+
+    .search-content{
+        display: none;
+    }
+
+    .search{
+        width: 0;
+    }
+
+    .header-container-content{
+        justify-content: flex-end;
+    }
+}
+
+
+
+
+@media only screen and (max-width:1507px) {
+    .azure-logo::before{
+        margin-left: 6px;
+    }
+    
+    .logo-container{
+        padding-left: 17.5px;
+    }
+
+    .search button{
+        margin-left: 1.5px;
+    }
+
+    .other-content{
+        left:-1px;
+    }
+
+    .main-contents-inner{
+        margin-left: 13px;
+    }
+
+
+}
+
+@media only screen and (max-width:1440px) {
+    .finale{
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+        box-sizing: content-box;
+    }
+
+    .final-bottom{
+        margin-right: -.5rem;
+        margin-left: -.5rem;
+    }
+
+    .header-container{
+        padding: 0 72.5px;
+    }
+
+    .azure-logo::before{
+        left: 0.4px;
+    }
+
+    .main-contents{
+        padding-top: 132px;
+    }
+    
+    .main-contents-inner{
+        padding-left: 59px;
+    }
+
+    .azure-btn , .sign-btn{
+        position:relative;
+        top: -1px;
+    }
+
+    .nav-bar-main-inner{
+        padding:  0 52.5px 0 56.5px;
+    }
+
+    .featured-inner-content{
+        margin: 0;
+        padding: 0 72px;
+    }
+
+    .card-container-body{
+        width: 94%;
+    }
+
+    .card-content-container{
+        padding-left: 24.5px;
+    }
+
+    .solutions-section{
+        margin-top: 1px;
+        padding: 0 52.5px;
+    }
+
+    .solutions-row-top{
+        margin-top: -1.5px;
+    }
+
+    .list-bottom-contents{
+        width: 100%;
+    }
+    .build-intelligent-content{
+        width: 99%;
+    }
+    .indicator{
+        width: 3px;
+    }
+
+    .image-about-content img {
+        height: 100%;
+    }
+
+    .section-3{
+        padding-top: 99px;
+    }
+
+    .products-services{
+        padding: 0 52.5px;
+    }
+
+    .product-service-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .product-left-image-container-content{
+        width: 100%;
+    }
+
+    .product-left-card{
+        max-width: 1286px !important;
+        /* width: 100%; */
+        height: 561px !important;
+    }
+
+    .product-right-cards-layout{
+        width: 100%;
+    }
+
+    .product-card-1{
+        max-width: 416.58px !important;
+    }
+
+    .gartner-left-head{
+        width: 90%;
+    }
+
+    .gartner-left-sub{
+        width: 100%;
+    }
+
+    .finale-card{
+        max-width: 416px !important;
+    }
+
+    .end-credits{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:1072px) {
+    .footer-inner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+@media only screen and (min-width:859px) {
+    .header-2{
+        display: none;
+    }
+
+    .featured-new-tab{
+        display: none;
+    }
+
+    .mobile-image-and-content{
+        display: none;
+    }
+
+    .left-right-arrow{
+        display: none;
+    }
+    .header-bottom{
+        display: none;
+    }
+
+
+    
+}
+
+@media only screen and (max-width:512px) {
+    .footer-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width:470px) {
+    .main-contents{
+        padding-bottom: 0;
+    }
+
+    .featured-new-tab{
+        margin-top: 40px !important;
+    }
+
+    .video-bg{
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (min-width:715px){
+    .featured-new-tab{
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width:465px){
+    .featured-new-tab{
+        margin-top: 70px !important;
+    }
+}
+
+@media only screen and (max-width:692px){
+    .featured-new-tab{
+        margin-top: -65px !important;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .featured-new-tab{
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width:470px){
+    .featured-new-tab{
+        margin-top: 65px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
